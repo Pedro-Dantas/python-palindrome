@@ -1,6 +1,6 @@
 dirtyChars = ['!', ',', '?', ' ', '.', ';', ':', '/', '...']
 
-phrase = 'O lobo, ama o bolo?'
+phrase = input('Enter with a phrase: ')
 
 phraseSanitized = ''
 for char in phrase.lower():
